@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'WHShareTimer_Example' do
+  pod 'WHShareTimer', :path => '../'
+
+  target 'WHShareTimer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
