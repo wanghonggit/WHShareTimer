@@ -1,0 +1,16 @@
+PODS:
+  - WHShareTimer (0.1.0)
+
+DEPENDENCIES:
+  - WHShareTimer (from `../`)
+
+EXTERNAL SOURCES:
+  WHShareTimer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WHShareTimer: 6120364a70f4775034f59cae3835420976aaca1f
+
+PODFILE CHECKSUM: 413302074dd3dd08149645181b5df4062c2f8024
+
+COCOAPODS: 1.11.3

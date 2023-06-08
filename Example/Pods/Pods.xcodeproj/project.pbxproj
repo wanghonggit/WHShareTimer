@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A191ABD0C373E20C644E656C57FB086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3671FE901029435A14E633D3331F7188 /* WHShareTimer+public.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570B23F1607674420772F8E8824FAFD3 /* WHShareTimer+public.swift */; };
+		4C9082327494ACE9E6A9555C5321240C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5A68926DE52422415234B18768EBD82A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6D736560C639EF1B2B807806B92116E0 /* WHShareTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F87F8D813871DAAFDC2CCDD993121AD /* WHShareTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79EAD30D04EC2014E5AF1646F8CD162F /* Pods-WHShareTimer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DCA276C770D6803766635D0CF67F13B /* Pods-WHShareTimer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D543869CB31F358AD3E4D1E7B0233C6 /* Pods-WHShareTimer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 599E19A6B1ADF9697012845BA2496975 /* Pods-WHShareTimer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85BD2F68C126F5BEA3CDA8C8575DBB23 /* WHShareTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 766A4FECD9CEFDD4FBF1E905E1E36B28 /* WHShareTimer-dummy.m */; };
+		B482C19AB9D5397AB181B62037B2742F /* WHShareTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A9DD25950739F9CA7ACE40B3670328 /* WHShareTimer.swift */; };
+		BDC2DD3436DF8A1F5410C4AF742AC822 /* Pods-WHShareTimer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 505518AE90FDF101DC464D617D30057D /* Pods-WHShareTimer_Tests-dummy.m */; };
+		DE58CBB87B58A33A9D725F433A993EC6 /* WHShareTimer+private.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BD00A9F92E3549980E1169E1475C8 /* WHShareTimer+private.swift */; };
+		F91023B1FE96F4B9B918B4737A9C8CC0 /* Pods-WHShareTimer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F292F11BEABA24513EF8534EE857D658 /* Pods-WHShareTimer_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C1BB992C7C1CC1617273B219AEC4B03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C62D346DA09526A07F51291EBF66D60;
+			remoteInfo = "Pods-WHShareTimer_Example";
+		};
+		98E58CD8BFB1C815DE37C7507E8E5B9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4918BDC1F09271544BFB220469373E90;
+			remoteInfo = WHShareTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04745FE2B2F0B3FE80196E759E0C3BB9 /* Pods-WHShareTimer_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WHShareTimer_Example"; path = Pods_WHShareTimer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D547DD2730CF1ADF0C31D9F75D0D7D /* Pods-WHShareTimer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WHShareTimer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A94BFF52D76809C2D68988D232706F8 /* Pods-WHShareTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHShareTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		10A9DD25950739F9CA7ACE40B3670328 /* WHShareTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WHShareTimer.swift; path = WHShareTimer/WHShareTimer.swift; sourceTree = "<group>"; };
+		121BD00A9F92E3549980E1169E1475C8 /* WHShareTimer+private.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WHShareTimer+private.swift"; path = "WHShareTimer/WHShareTimer+private.swift"; sourceTree = "<group>"; };
+		198AD40F286777771BE5D213B28BCA47 /* Pods-WHShareTimer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WHShareTimer_Example-Info.plist"; sourceTree = "<group>"; };
+		3F41ECF32490841BBDE34AF6D287C69F /* WHShareTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WHShareTimer.release.xcconfig; sourceTree = "<group>"; };
+		4049DB849592E5CF7F63509746FB9FA5 /* Pods-WHShareTimer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WHShareTimer_Example.modulemap"; sourceTree = "<group>"; };
+		4D4FABF35D5A261E17F387CEFA225EF4 /* Pods-WHShareTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHShareTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4E39DD9D1F14C56B74681A498BCAFB49 /* Pods-WHShareTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHShareTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		505518AE90FDF101DC464D617D30057D /* Pods-WHShareTimer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WHShareTimer_Tests-dummy.m"; sourceTree = "<group>"; };
+		570B23F1607674420772F8E8824FAFD3 /* WHShareTimer+public.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WHShareTimer+public.swift"; path = "WHShareTimer/WHShareTimer+public.swift"; sourceTree = "<group>"; };
+		599E19A6B1ADF9697012845BA2496975 /* Pods-WHShareTimer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WHShareTimer_Example-umbrella.h"; sourceTree = "<group>"; };
+		5CD5D7802F7782941E26F4C1F2BECC49 /* WHShareTimer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WHShareTimer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5EF2198F90F3066A5F6E92052AE7490C /* Pods-WHShareTimer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WHShareTimer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6028C088F1A342955FBE69587DB946D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6346ED1490F03119FF700AC0079FAD7D /* Pods-WHShareTimer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WHShareTimer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6AF7C6FFAFB2D9DA75467DF8336E6EDA /* Pods-WHShareTimer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WHShareTimer_Tests-Info.plist"; sourceTree = "<group>"; };
+		6DCA276C770D6803766635D0CF67F13B /* Pods-WHShareTimer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WHShareTimer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6F87F8D813871DAAFDC2CCDD993121AD /* WHShareTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHShareTimer-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		766A4FECD9CEFDD4FBF1E905E1E36B28 /* WHShareTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WHShareTimer-dummy.m"; sourceTree = "<group>"; };
+		7F47473BCE86708710C4C27054BF69B5 /* Pods-WHShareTimer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WHShareTimer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F9F170726F1A3260F945FDB02E20091 /* Pods-WHShareTimer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WHShareTimer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88D5C298829B5CDD496958723299A3A1 /* Pods-WHShareTimer_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WHShareTimer_Tests"; path = Pods_WHShareTimer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B040B6431A1B479A141C701A8E3CA0BF /* WHShareTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WHShareTimer.modulemap; sourceTree = "<group>"; };
+		B556D4290A780B96A2950D2264D3622C /* Pods-WHShareTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHShareTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C9DAD06830EA01F89EBBA2CE3F42E285 /* WHShareTimer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WHShareTimer; path = WHShareTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D420AA3D67233B832E1CDB368AC2720D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E8CF9E834A4CEB0A83C1CEAE68C5317E /* WHShareTimer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WHShareTimer-Info.plist"; sourceTree = "<group>"; };
+		E9BF927423ABD7664C37116FF865BEC2 /* WHShareTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHShareTimer-prefix.pch"; sourceTree = "<group>"; };
+		F292F11BEABA24513EF8534EE857D658 /* Pods-WHShareTimer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WHShareTimer_Example-dummy.m"; sourceTree = "<group>"; };
+		F2B5C3350173304586939A76DC495F8C /* Pods-WHShareTimer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WHShareTimer_Tests.modulemap"; sourceTree = "<group>"; };
+		F55AA1CBB53F15BC5A927D71BBB030EB /* WHShareTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WHShareTimer.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75ED370F2E7C4B6A1E54C167153E00B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A68926DE52422415234B18768EBD82A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A74AF5721F59A52BEB63BEAF3B4CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9082327494ACE9E6A9555C5321240C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A91BFFC4AD3BB77EA0158CD2EF5115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A191ABD0C373E20C644E656C57FB086 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F5ACA0BB11FD7672CE45C9295CA02AF /* Pods-WHShareTimer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F2B5C3350173304586939A76DC495F8C /* Pods-WHShareTimer_Tests.modulemap */,
+				7F9F170726F1A3260F945FDB02E20091 /* Pods-WHShareTimer_Tests-acknowledgements.markdown */,
+				06D547DD2730CF1ADF0C31D9F75D0D7D /* Pods-WHShareTimer_Tests-acknowledgements.plist */,
+				505518AE90FDF101DC464D617D30057D /* Pods-WHShareTimer_Tests-dummy.m */,
+				6AF7C6FFAFB2D9DA75467DF8336E6EDA /* Pods-WHShareTimer_Tests-Info.plist */,
+				6DCA276C770D6803766635D0CF67F13B /* Pods-WHShareTimer_Tests-umbrella.h */,
+				4E39DD9D1F14C56B74681A498BCAFB49 /* Pods-WHShareTimer_Tests.debug.xcconfig */,
+				4D4FABF35D5A261E17F387CEFA225EF4 /* Pods-WHShareTimer_Tests.release.xcconfig */,
+			);
+			name = "Pods-WHShareTimer_Tests";
+			path = "Target Support Files/Pods-WHShareTimer_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		78CC346A803DE9755F29AC58510799BC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D420AA3D67233B832E1CDB368AC2720D /* LICENSE */,
+				6028C088F1A342955FBE69587DB946D0 /* README.md */,
+				5CD5D7802F7782941E26F4C1F2BECC49 /* WHShareTimer.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7B70D50C94F49C60B4AC0E20F72ABB4E /* Pods-WHShareTimer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4049DB849592E5CF7F63509746FB9FA5 /* Pods-WHShareTimer_Example.modulemap */,
+				7F47473BCE86708710C4C27054BF69B5 /* Pods-WHShareTimer_Example-acknowledgements.markdown */,
+				5EF2198F90F3066A5F6E92052AE7490C /* Pods-WHShareTimer_Example-acknowledgements.plist */,
+				F292F11BEABA24513EF8534EE857D658 /* Pods-WHShareTimer_Example-dummy.m */,
+				6346ED1490F03119FF700AC0079FAD7D /* Pods-WHShareTimer_Example-frameworks.sh */,
+				198AD40F286777771BE5D213B28BCA47 /* Pods-WHShareTimer_Example-Info.plist */,
+				599E19A6B1ADF9697012845BA2496975 /* Pods-WHShareTimer_Example-umbrella.h */,
+				0A94BFF52D76809C2D68988D232706F8 /* Pods-WHShareTimer_Example.debug.xcconfig */,
+				B556D4290A780B96A2950D2264D3622C /* Pods-WHShareTimer_Example.release.xcconfig */,
+			);
+			name = "Pods-WHShareTimer_Example";
+			path = "Target Support Files/Pods-WHShareTimer_Example";
+			sourceTree = "<group>";
+		};
+		97F390364538946FEBC6DE6609C00CB9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B040B6431A1B479A141C701A8E3CA0BF /* WHShareTimer.modulemap */,
+				766A4FECD9CEFDD4FBF1E905E1E36B28 /* WHShareTimer-dummy.m */,
+				E8CF9E834A4CEB0A83C1CEAE68C5317E /* WHShareTimer-Info.plist */,
+				E9BF927423ABD7664C37116FF865BEC2 /* WHShareTimer-prefix.pch */,
+				6F87F8D813871DAAFDC2CCDD993121AD /* WHShareTimer-umbrella.h */,
+				F55AA1CBB53F15BC5A927D71BBB030EB /* WHShareTimer.debug.xcconfig */,
+				3F41ECF32490841BBDE34AF6D287C69F /* WHShareTimer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WHShareTimer";
+			sourceTree = "<group>";
+		};
+		98508E81153A39D36EA6C6F2C28D104E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04745FE2B2F0B3FE80196E759E0C3BB9 /* Pods-WHShareTimer_Example */,
+				88D5C298829B5CDD496958723299A3A1 /* Pods-WHShareTimer_Tests */,
+				C9DAD06830EA01F89EBBA2CE3F42E285 /* WHShareTimer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AACDA199936687C2ABAC8FC7445C155D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD75AEAA89F52409D2C4974BC11A852C /* WHShareTimer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AD75AEAA89F52409D2C4974BC11A852C /* WHShareTimer */ = {
+			isa = PBXGroup;
+			children = (
+				10A9DD25950739F9CA7ACE40B3670328 /* WHShareTimer.swift */,
+				121BD00A9F92E3549980E1169E1475C8 /* WHShareTimer+private.swift */,
+				570B23F1607674420772F8E8824FAFD3 /* WHShareTimer+public.swift */,
+				78CC346A803DE9755F29AC58510799BC /* Pod */,
+				97F390364538946FEBC6DE6609C00CB9 /* Support Files */,
+			);
+			name = WHShareTimer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CC3BA397BFF922FF968A254DC6C82AF3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B70D50C94F49C60B4AC0E20F72ABB4E /* Pods-WHShareTimer_Example */,
+				3F5ACA0BB11FD7672CE45C9295CA02AF /* Pods-WHShareTimer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AACDA199936687C2ABAC8FC7445C155D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				98508E81153A39D36EA6C6F2C28D104E /* Products */,
+				CC3BA397BFF922FF968A254DC6C82AF3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		200A89D0AA6BF1AF1743CDAEB59EEB25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D736560C639EF1B2B807806B92116E0 /* WHShareTimer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981CFBA0095F6A0BA71E88E45E43E51F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D543869CB31F358AD3E4D1E7B0233C6 /* Pods-WHShareTimer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46C3F667D916D6EACAB48950A9A08EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EAD30D04EC2014E5AF1646F8CD162F /* Pods-WHShareTimer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4918BDC1F09271544BFB220469373E90 /* WHShareTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109C49574639FA17CAB27A27913FA9AA /* Build configuration list for PBXNativeTarget "WHShareTimer" */;
+			buildPhases = (
+				200A89D0AA6BF1AF1743CDAEB59EEB25 /* Headers */,
+				687374BBFC7B868B4C235B275D484319 /* Sources */,
+				B5A74AF5721F59A52BEB63BEAF3B4CFF /* Frameworks */,
+				6C82CA652171D7EB0751F8BD8E409CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHShareTimer;
+			productName = WHShareTimer;
+			productReference = C9DAD06830EA01F89EBBA2CE3F42E285 /* WHShareTimer */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C62D346DA09526A07F51291EBF66D60 /* Pods-WHShareTimer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710D7A98157D82B06ADB4DF16120EC2C /* Build configuration list for PBXNativeTarget "Pods-WHShareTimer_Example" */;
+			buildPhases = (
+				981CFBA0095F6A0BA71E88E45E43E51F /* Headers */,
+				4122B95EEA383D34732A3248C6493CBF /* Sources */,
+				C8A91BFFC4AD3BB77EA0158CD2EF5115 /* Frameworks */,
+				F61B357A5807ABE1C11EEA232F013C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6207E55401A37BA36E0A48925EA8BBAC /* PBXTargetDependency */,
+			);
+			name = "Pods-WHShareTimer_Example";
+			productName = Pods_WHShareTimer_Example;
+			productReference = 04745FE2B2F0B3FE80196E759E0C3BB9 /* Pods-WHShareTimer_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		659C48C7A4CDE4B3E18A053D463C6A02 /* Pods-WHShareTimer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186EE4992952741440BFB12A2D43C960 /* Build configuration list for PBXNativeTarget "Pods-WHShareTimer_Tests" */;
+			buildPhases = (
+				C46C3F667D916D6EACAB48950A9A08EF /* Headers */,
+				39397266ED8C5A922CA0E9051D207127 /* Sources */,
+				75ED370F2E7C4B6A1E54C167153E00B6 /* Frameworks */,
+				0F46C3589A0E924D823E8A87CAB0949E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF7EE0292056025F69481D9BD3CA2570 /* PBXTargetDependency */,
+			);
+			name = "Pods-WHShareTimer_Tests";
+			productName = Pods_WHShareTimer_Tests;
+			productReference = 88D5C298829B5CDD496958723299A3A1 /* Pods-WHShareTimer_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 98508E81153A39D36EA6C6F2C28D104E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C62D346DA09526A07F51291EBF66D60 /* Pods-WHShareTimer_Example */,
+				659C48C7A4CDE4B3E18A053D463C6A02 /* Pods-WHShareTimer_Tests */,
+				4918BDC1F09271544BFB220469373E90 /* WHShareTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F46C3589A0E924D823E8A87CAB0949E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C82CA652171D7EB0751F8BD8E409CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61B357A5807ABE1C11EEA232F013C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39397266ED8C5A922CA0E9051D207127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC2DD3436DF8A1F5410C4AF742AC822 /* Pods-WHShareTimer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4122B95EEA383D34732A3248C6493CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91023B1FE96F4B9B918B4737A9C8CC0 /* Pods-WHShareTimer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687374BBFC7B868B4C235B275D484319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B482C19AB9D5397AB181B62037B2742F /* WHShareTimer.swift in Sources */,
+				DE58CBB87B58A33A9D725F433A993EC6 /* WHShareTimer+private.swift in Sources */,
+				3671FE901029435A14E633D3331F7188 /* WHShareTimer+public.swift in Sources */,
+				85BD2F68C126F5BEA3CDA8C8575DBB23 /* WHShareTimer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6207E55401A37BA36E0A48925EA8BBAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WHShareTimer;
+			target = 4918BDC1F09271544BFB220469373E90 /* WHShareTimer */;
+			targetProxy = 98E58CD8BFB1C815DE37C7507E8E5B9D /* PBXContainerItemProxy */;
+		};
+		DF7EE0292056025F69481D9BD3CA2570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WHShareTimer_Example";
+			target = 4C62D346DA09526A07F51291EBF66D60 /* Pods-WHShareTimer_Example */;
+			targetProxy = 6C1BB992C7C1CC1617273B219AEC4B03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03304B9BE3C2873D35EB798AA7AC1BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A94BFF52D76809C2D68988D232706F8 /* Pods-WHShareTimer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WHShareTimer_Example/Pods-WHShareTimer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WHShareTimer_Example/Pods-WHShareTimer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E06DE8E7AA01BF8A7A47B842678810A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E39DD9D1F14C56B74681A498BCAFB49 /* Pods-WHShareTimer_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WHShareTimer_Tests/Pods-WHShareTimer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WHShareTimer_Tests/Pods-WHShareTimer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2FABF1C09BE4BAC6A0A30928AECE8A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F41ECF32490841BBDE34AF6D287C69F /* WHShareTimer.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WHShareTimer/WHShareTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WHShareTimer/WHShareTimer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WHShareTimer/WHShareTimer.modulemap";
+				PRODUCT_MODULE_NAME = WHShareTimer;
+				PRODUCT_NAME = WHShareTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B982588553E5E485B5099505F0B2D725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F55AA1CBB53F15BC5A927D71BBB030EB /* WHShareTimer.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WHShareTimer/WHShareTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WHShareTimer/WHShareTimer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WHShareTimer/WHShareTimer.modulemap";
+				PRODUCT_MODULE_NAME = WHShareTimer;
+				PRODUCT_NAME = WHShareTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F02E71459A83B826BDD913010C3312E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B556D4290A780B96A2950D2264D3622C /* Pods-WHShareTimer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WHShareTimer_Example/Pods-WHShareTimer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WHShareTimer_Example/Pods-WHShareTimer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FBBF68151B2829B8DF07D48E17BA1C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4FABF35D5A261E17F387CEFA225EF4 /* Pods-WHShareTimer_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WHShareTimer_Tests/Pods-WHShareTimer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WHShareTimer_Tests/Pods-WHShareTimer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		109C49574639FA17CAB27A27913FA9AA /* Build configuration list for PBXNativeTarget "WHShareTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B982588553E5E485B5099505F0B2D725 /* Debug */,
+				2FABF1C09BE4BAC6A0A30928AECE8A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186EE4992952741440BFB12A2D43C960 /* Build configuration list for PBXNativeTarget "Pods-WHShareTimer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E06DE8E7AA01BF8A7A47B842678810A /* Debug */,
+				FBBF68151B2829B8DF07D48E17BA1C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		710D7A98157D82B06ADB4DF16120EC2C /* Build configuration list for PBXNativeTarget "Pods-WHShareTimer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03304B9BE3C2873D35EB798AA7AC1BB1 /* Debug */,
+				F02E71459A83B826BDD913010C3312E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

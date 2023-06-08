@@ -1,0 +1,6 @@
+framework module WHShareTimer {
+  umbrella header "WHShareTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}
